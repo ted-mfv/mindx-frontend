@@ -1,15 +1,16 @@
-import { Card } from 'antd';
+import {Card} from 'antd';
+import {Link} from "react-router-dom";
 
 const { Meta } = Card;
 
 const MealCard = ({meal}) => {
-  const {strMeal, strMealThumb, strTags} = meal;
+  const {strMeal, strMealThumb, strTags, idMeal} = meal;
 
-  return <Card
-    cover={<img alt="meal iamge" src={strMealThumb} />}
-  >
-    <Meta title={strMeal} description={strTags} />
-  </Card>
+  return <Link to={`/meal/${idMeal}`}>
+    <Card cover={<img alt="meal image" src={strMealThumb}/>}>
+      <Meta title={strMeal} description={strTags}/>
+    </Card>
+  </Link>
 }
 
 export default MealCard;

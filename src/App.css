@@ -3,7 +3,6 @@
 .App {
   width: 80%;
   margin: 30px auto;
-  border: 1px solid #f0f0f0;
 }
 
 .title {
@@ -32,7 +31,33 @@
   width: 30%;
 }
 
+.detail-container {
+  padding: 16px;
+}
+
+.detail-content {
+  margin: 20px 0;
+}
+
 /* ANTD */
 .ant-collapse-header {
   font-weight: bold;
+}
+
+.ant-card-head-title {
+  font-weight: bold;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image{
+  max-height: 400px;
+  margin: 0 auto;
+}
+.btn-area > * {
+  margin: 0 8px;
 }
