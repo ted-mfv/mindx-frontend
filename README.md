@@ -1,6 +1,6 @@
 # README
 
-- **The email that pushed code into this repository is: duong.van.truong@moneyforward.vn - which is my company email, I used it to save sometime while set up the develop environment. **
+- **The email that pushed code into this repository is: duong.van.truong@moneyforward.vn - which is my company email, I used it to save sometime while set up the develop environment.**
 - **My original email is: tadashii1417@gmail.com**
 - If you have any questions, please contact me !
 
